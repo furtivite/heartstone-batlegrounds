@@ -1,0 +1,80 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer {
+  color: grey;
+  font-size: 0.5rem;
+}
+
+code {
+  display: inline-block;
+  padding: 0 10px;
+  background: #ffc0cb;
+}
+
+.container {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.all-heroes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .all-heroes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 425px) {
+  .all-heroes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.all-heroes__item {
+  padding: 10px;
+}
+
+.all-heroes__image {
+  max-width: 100%;
+}
+
+.all-heroes__name {
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.button-place {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 2em;
+}
+
+.test-btn {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.test-btn_run {
+  background: #ffcc00;
+}
+.test-btn_polina {
+  background: #ffc0cb;
+}
+.test-btn_egor {
+  background: #42aaff;
+}
