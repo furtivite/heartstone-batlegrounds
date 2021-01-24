@@ -1,0 +1,41 @@
+{
+  "name": "heartstone-batlegrounds",
+  "version": "1.0.0",
+  "description": "It should work like this: You click on the button, and see the list of heroes of Hearthstone Battlegrounds, which you did not take the first place. Now you can choose exactly these heroes and get the missing achievements.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furtivite/heartstone-batlegrounds.git"
+  },
+  "keywords": [],
+  "author": "Egor Levchenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/furtivite/heartstone-batlegrounds/issues"
+  },
+  "homepage": "https://github.com/furtivite/heartstone-batlegrounds#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "autoprefixer": "^10.2.3",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.1",
+    "cssnano": "^4.1.10",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.5.1",
+    "mini-css-extract-plugin": "^1.3.4",
+    "postcss-loader": "^4.2.0",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3"
+  }
+}
