@@ -14,7 +14,7 @@ const heroesList = [
     image: "./images/Al'Akir.png",
     gamers: {
       polina: true,
-      egor: false,
+      egor: true,
     }
   },
   {
